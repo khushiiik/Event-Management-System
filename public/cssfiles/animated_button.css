@@ -1,0 +1,84 @@
+.actv{
+    display: block;
+    width: 250px;
+    height: 50px;
+    line-height: 46px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    color: #5f676e;
+    font-size: 16px;
+    font-family: arial;
+    position: relative;
+    overflow: hidden;
+    background: #5f676e;
+    color: #fff;
+    }
+    .actv:hover{
+        color: #fff;
+      }
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+/* .wrapper{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.sidebtn{
+
+  display: block;
+  width: 250px;
+  height: 50px;
+  line-height: 46px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 20px;
+  border:none;
+  color: #5f676e;
+  font-size: 16px;
+  font-family: arial;
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+  transition: all .35s;
+  text-decoration: none;
+}
+
+.sidebtn:before,
+.sidebtn:after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: -100%;
+  left: 0;
+  background: #5f676e;
+  z-index: -1;
+  transition: all .35s;
+  text-decoration: none;
+
+}
+
+.sidebtn:before{
+  opacity: .5;
+}
+
+.sidebtn:after{
+  transition-delay: .2s;
+}
+
+.sidebtn:hover{
+  color: #fff;
+}
+
+.sidebtn:hover:before,
+.sidebtn:hover:after{
+  top: 0;
+}

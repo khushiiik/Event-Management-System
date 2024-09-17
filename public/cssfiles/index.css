@@ -1,0 +1,21 @@
+.containerper{
+ background-color: blueviolet;
+ border: 5px;
+ display: flex;
+align-items: center;
+height: 40%;
+}
+
+.con-1{
+background-color: burlywood;
+border-width:4px;
+border-style:solid;
+border-color:black;
+}
+
+.con-2{
+background-color: burlywood;
+border-width:4px;
+border-style:solid;
+border-color:black;
+}
